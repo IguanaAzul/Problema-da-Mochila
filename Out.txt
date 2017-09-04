@@ -1,0 +1,26 @@
+Peso item 15:    13
+Preço item 15:    70
+Custo/Beneficio item 15:    5.38
+
+Peso item 14:    15
+Preço item 14:    60
+Custo/Beneficio item 14:    4.00
+
+Peso item 1:    15
+Preço item 1:    60
+Custo/Beneficio item 1:    4.00
+
+Peso item 8:    50
+Preço item 8:    200
+Custo/Beneficio item 8:    4.00
+
+Peso item 6:    2
+Preço item 6:    8
+Custo/Beneficio item 6:    4.00
+
+Peso item 5:    2
+Preço item 5:    7
+Custo/Beneficio item 5:    3.50
+
+Peso total colocado na mochila: 97
+Valor total arrecadado: 405
