@@ -1,0 +1,160 @@
+Peso item 29:    43
+Preço item 29:    12
+Custo/Beneficio item 29:    0.28
+
+Peso item 19:    78
+Preço item 19:    26
+Custo/Beneficio item 19:    0.33
+
+Peso item 28:    35
+Preço item 28:    13
+Custo/Beneficio item 28:    0.37
+
+Peso item 14:    31
+Preço item 14:    14
+Custo/Beneficio item 14:    0.45
+
+Peso item 17:    68
+Preço item 17:    34
+Custo/Beneficio item 17:    0.50
+
+Peso item 6:    64
+Preço item 6:    33
+Custo/Beneficio item 6:    0.52
+
+Peso item 25:    43
+Preço item 25:    28
+Custo/Beneficio item 25:    0.65
+
+Peso item 37:    34
+Preço item 37:    25
+Custo/Beneficio item 37:    0.74
+
+Peso item 3:    31
+Preço item 3:    23
+Custo/Beneficio item 3:    0.74
+
+Peso item 24:    95
+Preço item 24:    79
+Custo/Beneficio item 24:    0.83
+
+Peso item 35:    84
+Preço item 35:    70
+Custo/Beneficio item 35:    0.83
+
+Peso item 27:    41
+Preço item 27:    38
+Custo/Beneficio item 27:    0.93
+
+Peso item 13:    12
+Preço item 13:    12
+Custo/Beneficio item 13:    1.00
+
+Peso item 36:    31
+Preço item 36:    31
+Custo/Beneficio item 36:    1.00
+
+Peso item 40:    23
+Preço item 40:    23
+Custo/Beneficio item 40:    1.00
+
+Peso item 7:    37
+Preço item 7:    39
+Custo/Beneficio item 7:    1.05
+
+Peso item 2:    43
+Preço item 2:    52
+Custo/Beneficio item 2:    1.21
+
+Peso item 34:    85
+Preço item 34:    104
+Custo/Beneficio item 34:    1.22
+
+Peso item 38:    25
+Preço item 38:    34
+Custo/Beneficio item 38:    1.36
+
+Peso item 9:    57
+Preço item 9:    102
+Custo/Beneficio item 9:    1.79
+
+Peso item 26:    61
+Preço item 26:    113
+Custo/Beneficio item 26:    1.85
+
+Peso item 18:    34
+Preço item 18:    68
+Custo/Beneficio item 18:    2.00
+
+Peso item 15:    72
+Preço item 15:    144
+Custo/Beneficio item 15:    2.00
+
+Peso item 11:    35
+Preço item 11:    71
+Custo/Beneficio item 11:    2.03
+
+Peso item 1:    37
+Preço item 1:    89
+Custo/Beneficio item 1:    2.41
+
+Peso item 22:    123
+Preço item 22:    321
+Custo/Beneficio item 22:    2.61
+
+Peso item 23:    34
+Preço item 23:    90
+Custo/Beneficio item 23:    2.65
+
+Peso item 12:    34
+Preço item 12:    98
+Custo/Beneficio item 12:    2.88
+
+Peso item 4:    10
+Preço item 4:    30
+Custo/Beneficio item 4:    3.00
+
+Peso item 33:    19
+Preço item 33:    58
+Custo/Beneficio item 33:    3.05
+
+Peso item 39:    25
+Preço item 39:    78
+Custo/Beneficio item 39:    3.12
+
+Peso item 21:    150
+Preço item 21:    500
+Custo/Beneficio item 21:    3.33
+
+Peso item 20:    78
+Preço item 20:    265
+Custo/Beneficio item 20:    3.40
+
+Peso item 30:    17
+Preço item 30:    58
+Custo/Beneficio item 30:    3.41
+
+Peso item 10:    100
+Preço item 10:    350
+Custo/Beneficio item 10:    3.50
+
+Peso item 16:    144
+Preço item 16:    510
+Custo/Beneficio item 16:    3.54
+
+Peso item 32:    19
+Preço item 32:    71
+Custo/Beneficio item 32:    3.74
+
+Peso item 31:    18
+Preço item 31:    69
+Custo/Beneficio item 31:    3.83
+
+Peso item 5:    15
+Preço item 5:    60
+Custo/Beneficio item 5:    4.00
+
+Peso item 8:    12
+Preço item 8:    55
+Custo/Beneficio item 8:    4.58
+

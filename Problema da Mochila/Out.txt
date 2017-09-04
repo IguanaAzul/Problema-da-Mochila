@@ -1,45 +1,22 @@
-Peso item 7:    1
-Preço item 7:    1
-Custo/Beneficio item 7:    1.00
-Peso item 10:    12
-Preço item 10:    12
-Custo/Beneficio item 10:    1.00
-Peso item 13:    13
-Preço item 13:    13
-Custo/Beneficio item 13:    1.00
-Peso item 11:    13
-Preço item 11:    17
-Custo/Beneficio item 11:    1.31
-Peso item 4:    16
-Preço item 4:    28
-Custo/Beneficio item 4:    1.75
-Peso item 2:    13
-Preço item 2:    27
-Custo/Beneficio item 2:    2.08
-Peso item 3:    14
-Preço item 3:    35
-Custo/Beneficio item 3:    2.50
-Peso item 9:    30
-Preço item 9:    77
-Custo/Beneficio item 9:    2.57
-Peso item 12:    40
-Preço item 12:    122
-Custo/Beneficio item 12:    3.05
-Peso item 5:    2
-Preço item 5:    7
-Custo/Beneficio item 5:    3.50
-Peso item 6:    2
-Preço item 6:    8
-Custo/Beneficio item 6:    4.00
-Peso item 8:    50
-Preço item 8:    200
-Custo/Beneficio item 8:    4.00
-Peso item 1:    15
-Preço item 1:    60
-Custo/Beneficio item 1:    4.00
-Peso item 14:    15
-Preço item 14:    60
-Custo/Beneficio item 14:    4.00
-Peso item 15:    13
-Preço item 15:    70
-Custo/Beneficio item 15:    5.38
+Capacidade da mochila: 300
+Quantidade de produtos disponíveis: 40
+
+Itens colocados na mochila:
+
+Peso item 8:    12
+Preço item 8:    55
+
+Peso item 5:    15
+Preço item 5:    60
+
+Peso item 31:    18
+Preço item 31:    69
+
+Peso item 32:    19
+Preço item 32:    71
+
+Peso item 16:    144
+Preço item 16:    510
+
+Peso total colocado na mochila: 208
+Valor total arrecadado: 765
