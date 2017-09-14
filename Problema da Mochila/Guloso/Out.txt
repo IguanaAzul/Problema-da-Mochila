@@ -1,0 +1,76 @@
+Capacidade da mochila: 400
+Quantidade de produtos disponíveis: 600
+
+Itens colocados na mochila:
+
+Peso item 50:    11
+Preço item 50:    847
+
+Peso item 64:    15
+Preço item 64:    978
+
+Peso item 201:    13
+Preço item 201:    808
+
+Peso item 344:    13
+Preço item 344:    760
+
+Peso item 483:    12
+Preço item 483:    606
+
+Peso item 62:    19
+Preço item 62:    936
+
+Peso item 494:    20
+Preço item 494:    982
+
+Peso item 251:    11
+Preço item 251:    516
+
+Peso item 567:    12
+Preço item 567:    560
+
+Peso item 453:    14
+Preço item 453:    649
+
+Peso item 561:    14
+Preço item 561:    630
+
+Peso item 313:    15
+Preço item 313:    671
+
+Peso item 196:    20
+Preço item 196:    889
+
+Peso item 58:    14
+Preço item 58:    617
+
+Peso item 145:    22
+Preço item 145:    942
+
+Peso item 98:    20
+Preço item 98:    850
+
+Peso item 428:    20
+Preço item 428:    837
+
+Peso item 583:    15
+Preço item 583:    622
+
+Peso item 6:    25
+Preço item 6:    963
+
+Peso item 45:    25
+Preço item 45:    950
+
+Peso item 547:    15
+Preço item 547:    567
+
+Peso item 591:    21
+Preço item 591:    778
+
+Peso item 303:    27
+Preço item 303:    980
+
+Peso total colocado na mochila: 393
+Valor total arrecadado: 17938
