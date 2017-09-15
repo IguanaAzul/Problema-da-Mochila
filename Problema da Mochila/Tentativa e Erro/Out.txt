@@ -1,28 +1,22 @@
-Capacidade da mochila: 100
-Quantidade de produtos disponíveis: 15
+Capacidade da mochila: 50
+Quantidade de produtos disponíveis: 25
 
 Itens colocados na mochila:
 
-Peso item 1:    15
-Preço item 1:    60
+Peso item 3:    7
+Preço item 3:    182
 
-Peso item 5:    2
-Preço item 5:    7
+Peso item 6:    16
+Preço item 6:    272
 
-Peso item 6:    2
-Preço item 6:    8
-
-Peso item 7:    1
-Preço item 7:    1
-
-Peso item 8:    50
-Preço item 8:    200
+Peso item 9:    9
+Preço item 9:    273
 
 Peso item 14:    15
-Preço item 14:    60
+Preço item 14:    281
 
-Peso item 15:    13
-Preço item 15:    70
+Peso item 25:    2
+Preço item 25:    62
 
-Peso total colocado na mochila: 98
-Valor total arrecadado: 406
+Peso total colocado na mochila: 49
+Valor total arrecadado: 1070

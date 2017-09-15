@@ -39,7 +39,7 @@ int main(){
 	tempos[0] = clock();										//armazenando tempo inicial
 	FILE *arqin, *arqout;//, *arqaux; 							//arquivos a serem manipulados
 	int arq;
-	printf("Digite o número da entrada a ser aberta (1 a 9): \n");
+	printf("Digite o número da entrada a ser aberta (1 a 10): \n");
 	scanf("%d", &arq);
 	switch(arq){
 		case 1:
@@ -67,10 +67,14 @@ int main(){
 			arqin = fopen("In8.txt", "rt");						//abre o arquivo de entrada 8 (mochila com capacidade 100 e 5000 produtos disponíveis)
 			break;
 		case 9:
-			arqin = fopen("In9.txt", "rt");						//abre o arquivo de entrada 8 (mochila com capacidade 100 e 5000 produtos disponíveis)
+			arqin = fopen("In9.txt", "rt");						//abre o arquivo de entrada 8 (mochila com capacidade 50 e 20 produtos disponíveis)
+			break;
+		case 10:
+			arqin = fopen("In10.txt", "rt");					//abre o arquivo de entrada 8 (mochila com capacidade 50 e 20 produtos disponíveis)
 			break;
 		default: printf("Erro na criação do arquivo\n"); break;
 	}
+
 
 	int tMochila, qProdutos; 									//variáveis para armazenar a quantidade de itens e a capacidade da mochila
 	fscanf(arqin, "%d", &tMochila);								//armazenando tamanho da mochila
@@ -100,13 +104,12 @@ int main(){
 	for(i=qProdutos-1, pesoTotal=0;i>=0; i--){					//esse for salva os itens com maior valor/peso até estourar o limite da mochila, quando estoura ele para e o resultado está dado
      	pesoTotal+=peso[i];
 		valorTotal+=valor[i];
-		if(pesoTotal<tMochila){
+		if(pesoTotal<=tMochila){
 			fprintf(arqout, "Peso item %d:    %d\nPreço item %d:    %d\n\n", nItem[i], peso[i], nItem[i], valor[i]);
 		}
 			else{
 			pesoTotal-=peso[i];
 			valorTotal-=valor[i];
-			break;
 		}
 	}
 	fprintf(arqout, "Peso total colocado na mochila: %d\nValor total arrecadado: %d\n", pesoTotal, valorTotal); //salva no arquivo o peso total e o valor total do que foi colocado na mochila

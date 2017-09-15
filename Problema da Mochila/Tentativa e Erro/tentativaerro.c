@@ -69,7 +69,7 @@ int main(){
 	tempos[0] = clock();										//armazenando tempo inicial
 	FILE *arqin, *arqout;//, *arqaux; 							//arquivos a serem manipulados
 	int arq;
-	printf("Digite o número da entrada a ser aberta (1 a 9): \n");
+	printf("Digite o número da entrada a ser aberta (1 a 10): \n");
 	scanf("%d", &arq);
 	switch(arq){
 		case 1:
@@ -98,6 +98,9 @@ int main(){
 			break;
 		case 9:
 			arqin = fopen("In9.txt", "rt");						//abre o arquivo de entrada 8 (mochila com capacidade 50 e 20 produtos disponíveis)
+			break;
+		case 10:
+			arqin = fopen("In10.txt", "rt");					//abre o arquivo de entrada 8 (mochila com capacidade 50 e 20 produtos disponíveis)
 			break;
 		default: printf("Erro na criação do arquivo\n"); break;
 	}
