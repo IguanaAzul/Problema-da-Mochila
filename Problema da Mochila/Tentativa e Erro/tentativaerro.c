@@ -66,9 +66,9 @@ int tentativaerro(Item itens[], int v[], int mc[], int tMochila, int qProdutos, 
 	return mV;
 }
 int main(){
-	clock_t tempo[2];
-	tempo[0] = clock();
-	FILE *arqin;
+	clock_t tempos[4];
+	tempos[0] = clock();
+	FILE *arqin, *arqout;
 	arqin = fopen("In2.txt", "rt");
 	if (arqin == NULL){
 		printf("Problemas na CRIACAO do arquivo\n");
@@ -85,14 +85,29 @@ int main(){
 		fscanf(arqin, "%d", &(itens[i].valor));
 		itens[i].n = i+1;
 	}
-
+	tempos[1] = clock();
 	int maiorValor = 0, melhorCombinacao[qProdutos], vetorCombinacao[qProdutos];
 	
 	maiorValor = tentativaerro(itens, vetorCombinacao, melhorCombinacao, tMochila, qProdutos, maiorValor);
-	printf("%d", maiorValor);
-	tempo[1] = clock();
-	double Tempo = (tempo[1] - tempo[0]) * 1000.0 / CLOCKS_PER_SEC;
-	printf("Tempo gasto: %g ms.", Tempo);
+	tempos[2] = clock();
+	printf("tomate");
+	arqout = fopen("Out.txt", "w");	
+	fprintf(arqout, "Capacidade da mochila: %d\nQuantidade de produtos disponíveis: %d\n\nItens colocados na mochila:\n\n", tMochila, qProdutos);
+	int pesoTotal=0, valorTotal=0;
+	for(i=0;i<qProdutos; i++){
+			fprintf(arqout, "Peso item %d:    %d\nPreço item %d:    %d\n\n", itens[i].n, itens[i].peso, itens[i].n, itens[i].valor);
+			pesoTotal+=itens[i].peso;
+			valorTotal+=itens[i].valor;
+	}
+	fprintf(arqout, "Peso total colocado na mochila: %d\nValor total arrecadado: %d\n", pesoTotal, valorTotal);
+	fclose(arqout);
+	tempos[3] = clock();
+	double Tempo12 = (tempos[1] - tempos[0]) * 1000.0 / CLOCKS_PER_SEC;
+	double Tempo23 = (tempos[2] - tempos[1]) * 1000.0 / CLOCKS_PER_SEC;
+	double Tempo34 = (tempos[3] - tempos[2]) * 1000.0 / CLOCKS_PER_SEC;
+	double Tempo14 = (tempos[3] - tempos[0]) * 1000.0 / CLOCKS_PER_SEC;
+	double Tempo13 = (tempos[2] - tempos[0]) * 1000.0 / CLOCKS_PER_SEC;
+	printf("Tempo de leitura de arquivos e calculo do custo benefício: %g ms.\nTempo de ordenação dos produtos: %g ms.\nTempo de escrita de arquivos: %g ms.\nTempo total: %g ms.\nTempo total sem escrita de arquivos: %g ms.\n", Tempo12, Tempo23, Tempo34, Tempo14, Tempo13);												//printa tempo total gasto
 	return 0;
 }
 
