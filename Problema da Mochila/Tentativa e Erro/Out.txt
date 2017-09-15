@@ -6,15 +6,6 @@ Itens colocados na mochila:
 Peso item 1:    15
 Preço item 1:    60
 
-Peso item 2:    13
-Preço item 2:    27
-
-Peso item 3:    14
-Preço item 3:    35
-
-Peso item 4:    16
-Preço item 4:    28
-
 Peso item 5:    2
 Preço item 5:    7
 
@@ -27,26 +18,11 @@ Preço item 7:    1
 Peso item 8:    50
 Preço item 8:    200
 
-Peso item 9:    30
-Preço item 9:    77
-
-Peso item 10:    12
-Preço item 10:    12
-
-Peso item 11:    13
-Preço item 11:    17
-
-Peso item 12:    40
-Preço item 12:    122
-
-Peso item 13:    13
-Preço item 13:    13
-
 Peso item 14:    15
 Preço item 14:    60
 
 Peso item 15:    13
 Preço item 15:    70
 
-Peso total colocado na mochila: 249
-Valor total arrecadado: 737
+Peso total colocado na mochila: 98
+Valor total arrecadado: 406

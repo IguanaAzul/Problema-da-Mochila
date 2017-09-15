@@ -4,12 +4,12 @@ all: default
     
 default: main
 
-main: backtracking.c
-	gcc -c backtracking.o -o backtracking
+main: tentativaerro.c
+	gcc -c tentativaerro.o -o tentativaerro
 
-run: backtracking
-	./backtracking
+run: tentativaerro
+	./tentativaerro
 
 clean:
-	-rm -f backtracking.o
-	-rm -f backtracking
+	-rm -f tentativaerro.o
+	-rm -f tentativaerro
