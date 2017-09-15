@@ -10,7 +10,11 @@ Data: 14/09/2017
 
 
 
-void backtracking(int n[], int v[], int p[], int imv[], int ic[], int pt, int vt, int mv, int qic, int qp, int icmv){
+int backtracking(int n[], int valor[], int peso[], int melhor[], int itens[], int pesoTotal, int valorTotal, int maiorV, int qItensC, int qTotal, int qIdeal, int tMochila){
+	*pesoTotal+=peso[i];
+	if(*pesoTotal>tMochila){
+		
+	}
 	
 }
 int main(){
@@ -34,9 +38,9 @@ int main(){
 		nItem[i] = i+1;
 	}
 
-	int pesoTotal = 0, valorTotal = 0, maiorValor = 0, itensMaiorvalor[qProdutos], itensColocados[qProdutos], qItensColocados, qItensColocadosMaiorValor;
+	int pesoTotal = 0, valorTotal = 0, maiorValor = 0, melhorCombinacao[qProdutos], itensColocados[qProdutos], qItensColocados, qIdeal;
 	
-	backtracking(int nItem, int valor, int peso, int itensMaiorValor, int itensColocados, int &pesoTotal, int &valorTotal, int &maiorValor, int &qItensColocados, int &qProdutos, int &qItensColocadosMaiorValor);
+	backtracking(int nItem, int valor, int peso, int melhorCombinacao, int itensColocados, int &pesoTotal, int &valorTotal, int &maiorValor, int &qItensColocados, int &qProdutos, int &qIdeal, int &tMochila);
 
 	tempo[1] = clock();
 	double Tempo = (tempo[1] - tempo[0]) * 1000.0 / CLOCKS_PER_SEC;
